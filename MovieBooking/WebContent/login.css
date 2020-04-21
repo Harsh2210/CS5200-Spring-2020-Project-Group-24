@@ -1,0 +1,132 @@
+@charset "ISO-8859-1";
+
+
+.ticketImage3{
+	
+	position: absolute;
+  	top: 15%;
+  	left: 44%;
+}
+
+.loginContainer{
+	position: absolute;
+  	top: 40%;
+  	left: 42%;
+  	margin-left: -50px;
+	border-radius: 5px;
+  	background-color: #4b4b4b;
+  	padding: 20px;
+  	width: 265px;
+  	border:2px solid white;
+	
+}
+
+h1{
+	text-align:center;
+	font-family:'Courier New', Courier, monospace;
+	color: white;
+}
+
+.loginContainer1{
+	position: absolute;
+  	top: 20%;
+  	left: 42%;
+  	margin-left: -50px;
+	border-radius: 5px;
+  	background-color: #4b4b4b;
+  	padding: 20px;
+  	width: 265px;
+  	border:2px solid white;
+	
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[class=box], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+.button{
+  font-family:'Courier New', Courier, monospace;
+  background-color: #4b4b4b;
+  border: none;
+  color: white;
+  position:relative;
+  left:0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button5 {
+  background-color: #555555;
+  color: white;
+  border: 2px solid white;
+}
+.button5:hover {
+  background-color: white;
+  color: black;
+}
+
+label{
+	color:white;
+	font-family:'Courier New', Courier, monospace;"
+	
+}
+
+a.button{
+	font-family:'Courier New', Courier, monospace;
+  background-color: #4b4b4b;
+  border: none;
+  color: white;
+  position:relative;
+  left:30%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+a.button5 {
+  background-color: #555555;
+  color: white;
+  border: 2px solid white;
+}
+a.button5:hover {
+  background-color: white;
+  color: black;
+}
+
+
+

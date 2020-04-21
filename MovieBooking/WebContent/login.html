@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+ <link rel="stylesheet" href="commonBody.css">
+ <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+
+	<ul class="Navbar">
+	
+		<li><a  href="Home.html">HOME</a></li>
+		<li><a href="showtimes.jsp">NOW SHOWING</a></li>
+		<li><a class="active" href="login.html">LOG IN</a></li>
+    	<li><a  href="reviews.jsp">REVIEWS</a></li>
+		<li><a href="about.jsp">ABOUT US</a></li>
+    
+	</ul>
+
+	<div class="ticketImage3">
+      <img src="ticket12.jpg" alt="Snow" style="width:19%; border-radius:50%">
+	</div>
+	
+	<div class="loginContainer">
+		<form action="login.jsp" method="post">
+		<label for="fname" style="color:white;font-family:'Courier New', Courier, monospace;">User Name</label>
+		<input type="text" placeholder="Enter Username" name="loginname" required><br>
+		<label for="fname" style="color:white;font-family:'Courier New', Courier, monospace;">Password</label>
+		<input type="password" placeholder="Enter Password" name="loginpassword" required><br>
+    	<br>
+    	<input type="radio" name="user" value="Admin" checked><label for="fname" style="color:white; padding-left:8px;font-family:'Courier New', Courier, monospace;">Admin</label><br>
+    	<input type="radio" name="user" value="Customer"><label for="fname" style="color:white; padding-left:8px;font-family:'Courier New', Courier, monospace;">Customer</label> <br>
+    	<input type="radio" name="user" value="Manager"><label for="fname" style="color:white; padding-left:8px;font-family:'Courier New', Courier, monospace;">Manager</label><br>  
+		<br>
+		<button class="button button5" type="submit" id="loginButton">Login</button>
+		<button class="button button5" onclick="window.location.href='signup.html'" type="submit" id="SignupButton">Sign Up</button>
+		</form>
+	</div>
+	
+	
+
+</body>
+</html>

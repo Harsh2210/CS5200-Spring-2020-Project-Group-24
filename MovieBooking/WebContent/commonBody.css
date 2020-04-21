@@ -1,0 +1,106 @@
+@charset "ISO-8859-1";
+
+body{
+	
+	background-color: #4b4b4b
+	
+}
+
+div.ticketImage{
+	position:relative;
+	left:40%;
+	
+}
+.button{
+	
+	position:relative;
+	left: 44%;
+	  background-color: #4b4b4b; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button5 {
+  background-color: #555555;
+  color: white;
+  border: 2px solid white;
+}
+.button5:hover {
+  background-color: white;
+  color: black;
+}
+
+div.paraText {
+	position:relative;
+	left:25%;
+	text-align: center;
+  white-space: nowrap; 
+  width: 50%; 
+  overflow: hidden; 
+  color: white;
+  border: 1px solid white; 
+  font-family:"Courier New", Courier, monospace;
+  font-size: 45px;
+}
+
+.Navbar {
+ 	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #333;
+}
+
+li {
+	font-family:"Courier New", Courier, monospace;
+	font-size:20px;
+	padding-left: 10%;
+  float: left;
+}
+
+li a {
+	font-family:"Courier New", Courier, monospace;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #800000;
+}
+
+.active {
+  background-color: #ff0000;
+}
+
+table, td, th {  
+	font-family:'Courier New', Courier, monospace;
+  border: 1px solid #ddd;
+  text-align: center;
+  color: white;
+}
+
+table {
+	font-family:'Courier New', Courier, monospace;
+  border-collapse: collapse;
+  width: 100%;
+  color: white;
+}
+
+th, td {
+	font-family:'Courier New', Courier, monospace;
+  padding: 15px;
+  color: white;
+}
+
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Create Movie</title>
+ <link rel="stylesheet" href="commonBody.css">
+ <link rel="stylesheet" href="login.css">
+</head>
+<body>
+	
+		<ul class="Navbar">
+	
+		<li><a  href="Home.html">HOME</a></li>
+		<li><a href="showtimes.jsp">NOW SHOWING</a></li>
+		<li><a class="active" href="login.html">LOG IN</a></li>
+    	<li><a  href="reviews.jsp">REVIEWS</a></li>
+		<li><a href="about.jsp">ABOUT US</a></li>
+    
+	</ul>
+	
+	<div class="loginContainer1">
+	
+		<form action="createMovieAdmin.jsp" method="post">
+
+                <h1> Register New Movie</h1>
+
+                <input class="box" type="text" name="moviename" id="moviename"
+                       placeholder="Movie Title" required /><br>
+                       
+                <input class="box" type="text" name="movietime" id="movietime"
+                       placeholder="Showtime (PM/AM)" required /><br>       
+                       
+                <input class="box" type="text" name="details" id="details"
+                       placeholder="Details" required /><br>
+
+                <input class="box" type="text" name="genre" id="genre"
+                       placeholder="Genre" required/><br>
+
+                <br>
+                <button class="button button5" onclick="window.location.href='movieregistered.html'" id="submitDetails"
+                      name="submitDetails">Submit</button> <br>
+
+            </form>
+            
+	</div>
+
+</body>
+</html>
